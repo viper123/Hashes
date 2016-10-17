@@ -70,8 +70,6 @@ public class MainFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public MainFrame() {
-		setTitle("Hashes");
-		setResizable(false);
 		init();
 		setUpUI();
 		loadData();
@@ -83,6 +81,8 @@ public class MainFrame extends JFrame {
 	}
 	
 	private void setUpUI(){
+		setTitle("Hashes");
+		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 422);
 		contentPane = new JPanel();
