@@ -1,0 +1,1 @@
+start hashes.jar D:\TestHashes\FileToBeHashed.txt
