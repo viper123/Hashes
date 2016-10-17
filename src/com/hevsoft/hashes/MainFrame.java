@@ -6,15 +6,16 @@ import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.io.File;
-import java.text.MessageFormat;
 
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.border.EmptyBorder;
@@ -24,9 +25,6 @@ import javax.swing.event.ChangeListener;
 import com.hevsoft.hashes.calculator.HashCalculator;
 import com.hevsoft.hashes.calculator.HashCalculatorListener;
 import com.hevsoft.hashes.format.HashFormatter;
-
-import javax.swing.JCheckBox;
-import javax.swing.JScrollPane;
 
 public class MainFrame extends JFrame {
 
