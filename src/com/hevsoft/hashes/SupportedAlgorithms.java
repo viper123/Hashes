@@ -14,7 +14,9 @@ public enum SupportedAlgorithms {
 	SHA256(32,"SHA-256"),
 	SHA384(48,"SHA-384"),
 	SHA512(64,"SHA-512");
-	
+	/**
+	construct enum
+	*/
 	private SupportedAlgorithms(int keySize,String algorithm){
 		this.keySize = keySize;
 		this.algorithm = algorithm;
